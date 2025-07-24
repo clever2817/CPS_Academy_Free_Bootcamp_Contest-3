@@ -12,15 +12,17 @@ int main() {
         int count = 0;
         int num = 1;
 
-        while (true) {
+        while(1) {
 
             if (num % 3 != 0 && num % 10 != 3) {
                 count++;
             }
+
             if (count == k) {
                 cout << num << endl;
                 break;
             }
+
             num++;
         }
     }
